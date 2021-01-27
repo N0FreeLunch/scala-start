@@ -42,6 +42,8 @@ ref. https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html
 ```
 > scala> writting your scala code
 
+[SCALA PRACTICE with sbt cli](./study)
+
 ### exit scala console
 ```
   :quit
@@ -53,9 +55,17 @@ ref. https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html
   sudo apt-get remove scala-library scala
   sudo wget https://downloads.lightbend.com/scala/2.12.3/scala-2.12.3.deb
   sudo dpkg -i scala-2.12.3.deb
-```
-
-##
-```
   scala -version
 ```
+
+## build test
+make scala code file
+```
+  scala src/main/scala/progscala2/introscala/upper1.sc
+```
+
+## run scala console with $scala
+```
+  $scala
+```
+[SCALA PRACTICE with $scala](./01-dollor_scala_cli.md)
