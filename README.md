@@ -47,12 +47,15 @@ ref. https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html
   :quit
 ```
 
-## install scala compiler
+## install scala compiler on ubuntu 20.04
 ```
   sudo apt-get install scala
+  sudo apt-get remove scala-library scala
+  sudo wget https://downloads.lightbend.com/scala/2.12.3/scala-2.12.3.deb
+  sudo dpkg -i scala-2.12.3.deb
 ```
 
-## 
+##
 ```
   scala -version
 ```
