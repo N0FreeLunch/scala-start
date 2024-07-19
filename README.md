@@ -1,6 +1,15 @@
 # scala-start
+- 참고 서적 : \[Book\] 프로그래밍 스칼라 (Programming Scala, ISBN: 9788968489457)
 
-## install jvm
+## JVM 설치하기
+
+### 맥북에서 설치하기
+- 현재 설치된 JVM 버전 확인하기
+```
+java -version
+```
+
+### 리눅스에서 설치하기
 ```
 sudo apt-get update
 sudo apt-get install default-jdk
