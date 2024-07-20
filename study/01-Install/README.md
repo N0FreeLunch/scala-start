@@ -4,3 +4,4 @@ List
 - [Java](./Java.md)
 - [Scala](./Scala.md)
 - [SBT](./SBT.md)
+- [Intellij](./Intellij.md)

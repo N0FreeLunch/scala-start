@@ -10,6 +10,10 @@ brew install sbt
 ```
 - 간단한 설치를 위해 brew로 설치하는 방법을 사용한다.
 
+### sbt 버전 설정하기
+- https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html
+- scala 2.11.12를 사용하기 위해서, JDK 11을 설치하는 상황에서 호환되는 sbt의 버전은 1.1.0임을 알 수 있다.
+
 ### 라이브러리 종속성 설치하기
 ```
 sbt test

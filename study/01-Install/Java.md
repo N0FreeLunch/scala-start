@@ -63,9 +63,9 @@
 ```
 sdk list java
 ```
-- 여러 벤더들의 jdk 버전이 나온다. 인텔리제이 IDE에서 사용할 것이므로 `JetBrains | 11.0.14.1 | jbr | | 11.0.14.1-jbr`를 선택한다.
+- 여러 벤더들의 jdk 버전이 나온다. 공식 홈페이지[https://docs.scala-lang.org/getting-started/index.html]의 설명에 따르면 Oracle Java 8, Oracle Java 11, AdoptOpenJDK 8/11를 설치하기를 권장하고 있다. AdoptOpenJDK에 해당하는 Temurin 버전을 설치하도록 하자.
 ```
-sdk install java 11.0.14.1-jbr
+sdk install java 11.0.24-tem
 ```
 
 #### 설치된 버전 확인하기
