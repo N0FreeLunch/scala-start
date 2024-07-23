@@ -2,3 +2,4 @@
 - [불변값](./immutable.md)
 - [스칼라 스크립트](./scalaScript.md)
 - [클래스의 기본](./theBasicOfClass.md)
+- [타입추론](./typeInference.md)
