@@ -6,3 +6,4 @@
 - [위치 지정자(placeholder)](./placeHolder.md)
 - [프로세스 진입점](./processEntryPoint.md)
 - [실행하지 않는 컴파일 scalc](./scalac.md)
+- [네임스페이스로 실행하기](./runWithNamespace.md)
